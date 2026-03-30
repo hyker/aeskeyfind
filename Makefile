@@ -1,4 +1,4 @@
-CFLAGS= -Wall -O4 -std=c99
+CFLAGS= -Wall -O1 -fno-strict-aliasing -std=c99
 OBJS= aeskeyfind.o aes.o util.o
 
 all: aeskeyfind
